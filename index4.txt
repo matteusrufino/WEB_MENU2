@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>Estágio na WEB</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/tipo.css" rel="stylesheet" type="text/css"  />
+        <link href="css/principal.css" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8">
+</head>
+<body>
+<div id="mainwrap">													
+
+<div id="header-wrap" class="wrap">
+	<div id="header" class="pagesize">
+        <h1 id="logo">ESTAGIARIOS DA DEPRESSAO</h1>
+	<h2> Área de Empresa</h2>
+    </div>
+</div>
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Início</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Cadastrar</span></a>
+      <ul>
+         <li class='has-sub'><a href='index2.html'><span>Estágiario</span></a>
+            <ul>
+               <li><a href='#'><span>item1</span></a></li>
+               <li class='last'><a href='#'><span>item2</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Empresa</span></a>
+            <ul>
+               <li><a href='#'><span>item1</span></a></li>
+               <li class='last'><a href='#'><span>item2</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li class='last'><a href='#'><span>Sobre</span></a></li>
+   <li class='last'><a href='#'><span>Contato</span></a></li>
+</ul>
+</div>
+<div id="container-wrap" class="wrap">
+    <div id="container" class="pagesize clearfix">
+    	<div id="centercol">
+        	<div class="inner">
+            	<p>Cadastro de vagas para estágios, de acordo com o preenchimento dos dados serão enviados os currículos ao email cadastrado pela empresa.</p>
+            </div>
+        </div>
+        <div id="maincol">
+            <div id="content-wrap">
+            	<div id="content" class="clearfix">
+                	<h3 class="yellow f14">CADASTRAR VAGAS</h3>
+                    <form id="cadastro" name="cadastro" method="post" action="cadastro.php" onsubmit="return validaCampo(); return false;">
+  <table width="550" border="0">
+    <tr>
+      <td class="yellow f14">Nº de Vagas para estágio?</td>
+      <td><input name="quantas" type="text" id="quantas" size="10" maxlength="3" />
+      <span class="style1">*</span></td>
+    </tr>
+	<tr>
+      <td width="69" class="yellow f14" >Data Início:</td>
+      <td width="546"><input type="text" name="dia" size="2" maxlength="2" value="dd" />
+			<input type="text" name="mes" size="2" maxlength="2" value="mm" />
+			<input type="text" name="ano" size="4" maxlength="4" value="aaaa" />
+        <span>*</span></td>
+    </tr>
+	<tr>
+      <td width="69" class="yellow f14" >Data Fim:</td>
+      <td width="546"><input name="nome" type="text" id="nome" size="50" maxlength="60" />
+        <span>*</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="2"><p>
+        <input name="cadastrar" type="submit" id="cadastrar" value="  Criar  " />
+       
+ 
+          <input name="limpar" type="reset" id="limpar" value="  Limpar  " />
+         
+ 
+          <span class="style1 yellow f14" >* Campos com * são obrigatórios!          </span></p>
+      <p>  </p></td>
+    </tr>
+  </table>
+</form>
+                	
+                </div>
+            </div>
+            <div id="footer">
+            	TODOS OS DIREITOS RESERVADOS PARA KAYOTA
+            </div>
+        </div>
+        <div id="rightcol">
+        	<div class="inner">
+            	<p>O estágio relativo a cursos que alternam teoria e prática, nos períodos em que não estão programadas aulas presenciais, poderá ter jornada de até 40 (quarenta) horas semanais, desde que isso esteja previsto no projeto pedagógico do curso e da instituição de ensino.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
